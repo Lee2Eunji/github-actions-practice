@@ -1,4 +1,4 @@
-name: test2
+name: test
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
     branches: [main]
-  
+
 jobs:
   test:
     runs-on: ubuntu-latest
