@@ -1,5 +1,6 @@
 name: test
 
+#event
 on:
   push:
     branches:
@@ -7,6 +8,7 @@ on:
   pull_request:
     branches: [main]
 
+#수행
 jobs:
   test:
     runs-on: ubuntu-latest
